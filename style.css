@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Main */
+.main-container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 350px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 7px 7px 1px black;
+}
+
+#illustration {
+    width: 98%;
+    border-radius: 13px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#learning-box {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 0.3rem 0.5rem;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+#card-title {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#card-title:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+#card-subtitle {
+    color: hsl(0, 0%, 50%);
+    line-height: 150%;
+}
+
+.avatar-box {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 0.5rem;
+}
+
+.avatar-box img {
+    width: 30px;
+}
+
+#user-name {
+    font-weight: 800;
+}
+
+/* Footer */
+.attribution { 
+    margin-top: 2rem;
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
